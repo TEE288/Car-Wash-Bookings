@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Car Wash</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Car Wash</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <section class="booking-section">
+            <h2>Book Your Appointment</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="car">Car type</label>
+                <input type="text" id="car" name="car">
+
+                <label for="services">Select Services</label>
+                <select name="services" id="services">
+                  <option>Basic Wash</option>
+                  <option>Premium Wash & Wax</option>
+                  <option>Interior cleaning</option>
+                  <option>Full Detailing</option>
+                </select>
+
+                <label for="date">Choose Date</label>
+      <input type="date" id="date" name="date">
+
+      <label for="time">Choose Time</label>
+      <input type="time" id="time" name="time">
+
+      <button type="submit">Confirm Appointment</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy;2025 Tebs Tech. All rights reserved</p>
+        </footer>
+    </body>
+</html>
